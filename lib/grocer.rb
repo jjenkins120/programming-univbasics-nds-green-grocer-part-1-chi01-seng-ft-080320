@@ -1,4 +1,5 @@
-=begin
+require "pry"
+
 def find_item_by_name_in_collection(string, collection)
   collection.each do |hash|
     if hash[:item] == string
@@ -25,8 +26,8 @@ def consolidate_cart(cart)
   end
   new_cart
 end
-=end
 
+=begin
 require "pry"
 def find_item_by_name_in_collection(string, collection)
   collection.each do |hash|
@@ -46,7 +47,7 @@ def consolidate_cart(cart)
     end   
   end
 end
-
+=end
 
 
 
